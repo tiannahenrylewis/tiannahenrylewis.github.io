@@ -1,0 +1,220 @@
+/* Gloabl Styles */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #7971ea;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+li {
+  color: #8f8f8f;
+}
+
+a {
+  color: #7971ea;
+}
+
+a:hover {
+  color: #7971ea;
+}
+
+.text-bold {
+  font-weight: 700;
+  color: #7971ea;
+  font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* Hero Section */
+.container-fluid {
+  padding: 5% 5%;
+}
+
+.title-image-box {
+  text-align: center;
+}
+
+.title-image {
+  width: 45%;
+}
+
+#title {
+  background-color: #eeeeee;
+}
+
+.title-info {
+  text-align: center;
+}
+
+/* Apps Section */
+#apps {
+  padding: 5%;
+}
+
+.card-button {
+  margin: 2%;
+}
+
+.card-button:hover {
+  background-color: #7971ea;
+  border-color: #7971ea;
+}
+
+.card-info-button {
+  margin: 2%;
+  background-color: #7971ea;
+  border-color: #7971ea;
+}
+
+.card-info-button:hover {
+  border-color: #7971ea;
+  color: #7971ea;
+  background-color: white;
+}
+
+.card-info-button:focus {
+  border-color: #7971ea;
+  color: #7971ea;
+  background-color: white;
+}
+
+.card-button-section {
+  text-align: right;
+}
+
+.project-detail-heading {
+  margin: 3px 0px;
+  font-size: 1.2rem;
+  color: #7971ea;
+}
+
+.modal-cta-section {
+  text-align: left;
+}
+
+.modal-close-button {
+  border-color: #7971ea;
+  color: #7971ea;
+  background-color: white;
+}
+
+.disclaimer-text {
+  margin: 5px 0px;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.7rem;
+}
+
+/* Skills Section */
+#skills {
+  padding: 5%;
+  background-color: #eeeeee;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #222831;
+  padding-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #7971ea;
+}
+
+/* Contact Section */
+#contact {
+  padding: 5%;
+  text-align: center;
+}
+
+.contact-box {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-form {
+  padding: 2% 0%;
+}
+
+.contact-text {
+  text-align: left;
+  padding: 2% 0%;
+}
+
+/* Footer */
+#footer {
+  padding: 2%;
+  background-color: #222831;
+  text-align: center;
+}
+
+.footer-social-icon {
+  margin: 20px 10px;
+  color: #7971ea;
+}
+
+.footer-link {
+  color: #7971ea;
+}
+
+.button-cta {
+  margin: 2%;
+  border-color: #7971ea;
+  color: #7971ea;
+  background-color: white;
+}
+
+.button-cta:hover {
+  background-color: #7971ea;
+  border-color: #7971ea;
+}

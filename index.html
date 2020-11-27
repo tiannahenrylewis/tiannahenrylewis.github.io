@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bootstrap - THL</title>
+    <!--BOOTSTRAP INSTALLATION-->
+    <!--GOOGLE FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/8f9c755df0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+          <a class="navbar-brand" href="">THL</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#apps">Apps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Links</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- HERO -->
+        <div class="row title-info">
+          <div class="col-lg-6">
+            <h1 class="heading">Tianna Henry-Lewis</h1>
+            <p class="subtitle">
+              I am an iOS Developer located in Toronto, Canada with 2+ years
+              experience developing, testing, and publishing apps on the App
+              Store. I feel the best way to learn is to do, so feel free to take a look at some the apps I have launched.
+            </p>
+
+            <a href="https://apps.apple.com/us/developer/tianna-henry-lewis/id1222798597"
+            ><i class="fab fa-app-store-ios fa-2x footer-social-icon"></i
+          ></a>
+
+            <a href="https://github.com/tiannahenrylewis"
+            ><i class="fab fa-github fa-2x footer-social-icon"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/tianna-henry-lewis/"
+            ><i class="fab fa-linkedin fa-2x footer-social-icon"></i
+          ></a>
+
+          <a href="https://medium.com/@tianna_lewis05"
+            ><i class="fab fa-medium fa-2x footer-social-icon"></i
+          ></a>
+
+          <a href="https://twitter.com/tianna_hl"
+            ><i class="fab fa-twitter fa-2x footer-social-icon"></i
+          ></a>
+
+          <a href="https://www.instagram.com/tianna_hl/"
+            ><i class="fab fa-instagram fa-2x footer-social-icon"></i
+          ></a>
+          </div>
+
+          <div class="col-lg-6 title-image-box">
+            <img
+              class="title-image"
+              src="images/heroImage.png"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPS -->
+    <div id="apps" class="card-deck">
+      <!-- POMODORO FOCUS TIMER -->
+      <div class="card">
+        <img
+          class="d-block w-100"
+          src="images/pomodoro-focus-timer/pomodoro-hero.png"
+          alt="First slide"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Pomodoro Focus Timer</h5>
+          <p class="card-text">
+            A timer app that for practitioners of the Pomodoro Technique.
+            Pomodoro Focus Timer has a minimal design to keep distractions away.
+            It is an effective tool to retain motivation and focus.
+          </p>
+        </div>
+        <div class="card-footer card-button-section">
+          <a
+            type="button"
+            class="btn btn-dark card-button"
+            href="https://apps.apple.com/us/app/pomodoro-focus-timer/id1440911969"
+            ><i class="fab fa-apple"></i>
+            App Store
+          </a>
+
+          <button
+            type="button"
+            class="btn btn-dark card-info-button"
+            data-toggle="modal"
+            data-target="#pomodoroModal"
+          >
+            More Info
+          </button>
+        </div>
+      </div>
+      <!-- BARKEEP -->
+      <div class="card">
+        <img
+          class="d-block w-100"
+          src="images/barkeep/barkeep-hero.jpg"
+          alt="First slide"
+        />
+        <!-- BARKEEP CARD BODY -->
+        <div class="card-body">
+          <h5 class="card-title">Barkeep</h5>
+          <p class="card-text">
+            Capstone project for Udacity iOS Nanodegree. Barkeep works with an
+            API to pull a library of cocktail drinks where users can view drink
+            ingredients and instructions and save their favourites.
+          </p>
+        </div>
+        <!-- BARKEEP CARD FOOTER -->
+        <div class="card-footer card-button-section">
+          <a
+            type="button"
+            class="btn btn-dark card-button"
+            href="https://apps.apple.com/us/app/barkeep-cocktail-recipes/id1514181595"
+            ><i class="fab fa-apple"></i>
+            App Store
+          </a>
+          <button
+            type="button"
+            data-toggle="modal"
+            data-target="#barkeepModal"
+            class="btn btn-dark card-info-button"
+          >
+            More Info
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- POMODORO MODAL -->
+    <div class="modal fade" id="pomodoroModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-body container-fluid">
+            <div class="row">
+              <!-- Images Section -->
+              <div class="col-md-6">
+                <img
+                  class="d-block w-100"
+                  src="images/pomodoro-focus-timer/pomodoro-portfolio2.png"
+                  alt="First slide"
+                />
+                <p class="disclaimer-text">
+                  *Screenshots only show a sample of all screens contained in
+                  the app
+                </p>
+              </div>
+              <!-- Project Details Section -->
+              <div class="modal-details-section col-md-6">
+                <!-- <h3 class="modal-title">Pomodoro Focus Timer</h3> -->
+                <p>
+                  <span class="text-bold">Pomodoro Focus Timer</span> was an app
+                  I built to get more experience outside of tutorials and
+                  classes. Allowing me to work with and implement features I
+                  rarely got to explore in depth. I continually re-visit the
+                  project to refactor code and implment new features as my
+                  skills improve.
+                  <p>Having used the Pomodoro technique alot while studying and working on projects as a way to control my focus. A Pomodoro Timer was a natural choice when deciding to work on a project of my own. I focused on buiding a timer with a simple design to limit distractions and avoid spending too much time in-app.</p>
+                </p>
+                <p class="text-bold project-detail-heading">Lessons Learned</p>
+                <p>
+                  Localization was not something I had planned for when I began
+                  developing the app but was soemthing I decided to implement
+                  after analytics showed that a good percentage of my users were
+                  located in various non-english regions. With future projects
+                  localization is something I will plan for from day one as it
+                  will make the process smoother allowing me to offer future
+                  apps in more langugaes earlier.
+                </p>
+                <p>
+                  <span class="text-bold">Role: </span>Sole Developer, UX/UI Designer
+                </p>
+                <p class="text-bold project-detail-heading">Technologies</p>
+                <ul>
+                  <li>NSTimer</li>
+                  <li>NSCalendar</li>
+                  <li>AVFoundation</li>
+                  <li>Local Notifications</li>
+                  <li>Firebase</li>
+                  <li>In-App Purchases</li>
+                  <li>User Defaults</li>
+                  <li>Sketch</li>
+                </ul>
+                <div class="modal-cta-section">
+                  <a
+                    type="button"
+                    class="btn btn-dark card-button"
+                    href="https://apps.apple.com/us/app/pomodoro-focus-timer/id1440911969"
+                    ><i class="fab fa-apple"></i>
+                    App Store
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-dark card-button modal-close-button"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BARKEEP MODAL -->
+    <div class="modal fade" id="barkeepModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-body container-fluid">
+            <div class="row">
+              <!-- Images Section -->
+              <div class="col-md-6">
+                <img
+                  class="d-block w-100"
+                  src="images/barkeep/barkeep_portfolio1.png"
+                  alt="First slide"
+                />
+                <p class="disclaimer-text">
+                  *Screenshots only show a sample of all screens contained in
+                  the app
+                </p>
+              </div>
+              <!-- Project Details Section -->
+              <div class="modal-details-section col-md-6">
+                <!-- <h3 class="modal-title">Pomodoro Focus Timer</h3> -->
+                <p>
+                  <span class="text-bold">Barkeep</span> was completed to fulfill the requirements of the Udacity iOS Nanodegree.</p>
+                  <p>Barkeep works with <span><a href="https://www.thecocktaildb.com/api.php">TheCocktailDB API</a></span> to pull a library of cocktail drinks. The API response is then parsed and the results are displayed to the user. Users can then navigate through collection views, table views, and detail screens to see what ingredients and steps are needed to make a particular drink. Users are also able to save their favourites to a seperate list for easy recall.</p>
+                </p>
+                <!-- <p class="text-bold project-detail-heading">Lessons Learned</p>
+                <p>
+                  ...
+                </p> -->
+                <p>
+                  <span class="text-bold">Role: </span>Sole Developer & UX/UI Designer
+                </p>
+                <p class="text-bold project-detail-heading">Technologies</p>
+                <ul>
+                  <li>Networking</li>
+                  <li>CoreData</li>
+                  <li>UITableView</li>
+                  <li>UICollectionView</li>
+                  <li>Cocoapods</li>
+                  <li>Image Cache</li>
+                </ul>
+                <div class="modal-cta-section">
+                  <a
+                    type="button"
+                    class="btn btn-dark card-button"
+                    href="https://apps.apple.com/us/app/barkeep-cocktail-recipes/id1514181595"
+                    ><i class="fab fa-apple"></i>
+                    App Store
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-dark card-button modal-close-button"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3D PRINT QUOTER MODAL -->
+    <div class="modal fade" id="printQuoterModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-body container-fluid">
+            <div class="row">
+              <!-- Images Section -->
+              <div class="col-md-6">
+                <img
+                  class="d-block w-100"
+                  src="images/portfolio-placeholder.png"
+                  alt="First slide"
+                />
+                <p class="disclaimer-text">
+                  *Screenshots only show a sample of all screens contained in
+                  the app
+                </p>
+              </div>
+              <!-- Project Details Section -->
+              <div class="modal-details-section col-md-6">
+                <!-- <h3 class="modal-title">Pomodoro Focus Timer</h3> -->
+                <p>
+                  <span class="text-bold">3D Print Quoter</span> is an app currently under development.</p>
+                  <p>...</p>
+                </p>
+                <!-- <p class="text-bold project-detail-heading">Lessons Learned</p>
+                <p>
+                  ...
+                </p> -->
+                <p>
+                  <span class="text-bold">Role: </span> Sole Developer & UX/UI Designer </p>
+                <p class="text-bold project-detail-heading">Technologies</p>
+                <ul>
+                  <li>CoreData</li>
+                  <li>UITableView</li>
+                  <li>UserDefaults</li>
+                </ul>
+                <div class="modal-cta-section">
+                  <button type="button" class="btn btn-dark card-button">
+                    <i class="fab fa-apple"></i>
+                    Coming Soon
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-dark card-button modal-close-button"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--SKILLS-->
+    <section id="skills">
+      <!-- <h2>Skills</h2> -->
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="fab fa-swift feature-icon fa-4x"></i>
+          <h3>Swift</h3>
+          <p>
+            Writing and maintaining applications in Swift with XCode.
+          </p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-project-diagram feature-icon fa-4x"></i>
+          <h3>Networking</h3>
+          <p>
+            Networking using REST APIs and parsing JSON repsonse data.
+          </p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-ruler feature-icon fa-4x"></i>
+          <h3>User Interface</h3>
+          <p>
+            AutoLayout using Storyboards and Programatically.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="fab fa-git-alt feature-icon fa-4x"></i>
+          <h3>Git</h3>
+          <p>
+            Experienced with versioning tools Git and GitHub.
+          </p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-palette feature-icon fa-4x"></i>
+          <h3>Design Software</h3>
+          <p>
+            Creating UI designs and mockups using Sketch and Affinity Designer.
+          </p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-database feature-icon fa-4x"></i>
+          <h3>Backend</h3>
+          <p>
+            Building and working with Backend and Storage solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-box">
+        
+        <h2>Contact Me</h2>
+        <p class="contact-text">If you want to talk about your projects, my projects or anything, feel free to contact. We can also have a friendly chat on any of my social platforms, or you can just drop a mail. I'm usually open to have tech discussion or coffee on weekends.</p>
+        <div class="contact-form">
+          <form
+            action="mailto: tianna.henrylewis@gmail.com"
+            method="post"
+            enctype="type/plain"
+          >
+            <!-- Name -->
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="formGroupExampleInput"
+                placeholder="Name"
+              />
+            </div>
+            <!-- Email -->
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control form-control-lg"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Email"
+              />
+            </div>
+            <!-- Text Area -->
+            <div class="form-group">
+              <textarea
+                class="form-control form-control-lg"
+                id="exampleFormControlTextarea1"
+                rows="5"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary button-cta">
+              Submit
+            </button>
+          </form>
+      </div>
+      
+    </section>
+
+    <!--FOOTER-->
+    <section id="footer">
+      <div>
+        <div>
+          <a href="https://github.com/tiannahenrylewis"
+            ><i class="fab fa-github footer-social-icon"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/tianna-henry-lewis/"
+            ><i class="fab fa-linkedin footer-social-icon"></i
+          ></a>
+
+          <a href="https://medium.com/@tianna_lewis05"
+            ><i class="fab fa-medium footer-social-icon"></i
+          ></a>
+
+          <a href="https://twitter.com/tianna_hl"
+            ><i class="fab fa-twitter footer-social-icon"></i
+          ></a>
+
+          <a href="https://www.instagram.com/tianna_hl/"
+            ><i class="fab fa-instagram footer-social-icon"></i
+          ></a>
+        </div>
+        <p>
+          ©2020 Tianna Henry-Lewis
+        </p>
+        <p>
+          <a class="footer-link" href="#title">Back to top</a>
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
