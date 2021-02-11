@@ -45,10 +45,24 @@ a:hover {
   color: #7971ea;
 }
 
+#aLink {
+  color: white;
+  text-decoration: none;
+}
+
+#aLink:hover {
+  color: #7971ea;
+  text-decoration: none;
+}
+
 .text-bold {
   font-weight: 700;
   color: #7971ea;
   font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* Navigation Bar */
