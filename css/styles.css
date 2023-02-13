@@ -18,6 +18,14 @@ h2 {
   text-align: center;
 }
 
+#h2-negative {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #E23B3B;
+  text-align: center;
+}
+
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -58,6 +66,12 @@ a:hover {
 .text-bold {
   font-weight: 700;
   color: #7971ea;
+  font-size: 1.2rem;
+}
+
+#text-bold-negative {
+  font-weight: 700;
+  color: #E23B3B;
   font-size: 1.2rem;
 }
 
