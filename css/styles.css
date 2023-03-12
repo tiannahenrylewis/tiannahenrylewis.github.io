@@ -18,11 +18,11 @@ h2 {
   text-align: center;
 }
 
-#h2-negative {
+#h2-exposureMate {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 2.5rem;
-  color: #E23B3B;
+  color: #54A995;
   text-align: center;
 }
 
@@ -69,9 +69,9 @@ a:hover {
   font-size: 1.2rem;
 }
 
-#text-bold-negative {
+#text-bold-exposureMate {
   font-weight: 700;
-  color: #E23B3B;
+  color: #54A995;
   font-size: 1.2rem;
 }
 
